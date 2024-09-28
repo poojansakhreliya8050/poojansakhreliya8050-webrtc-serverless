@@ -1,0 +1,78 @@
+body{
+  width:800px;
+  margin: 0 auto;
+}
+
+#videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  video {
+    width: 100%;
+    border:2px solid greenyellow;
+    background-color: rgb(63, 62, 62);
+
+  }
+
+  textarea{
+    height: 50px;
+    width: 100%;
+  }
+  
+  .step{
+    background-color: beige;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .step p{
+    margin: 0;
+  }
+
+
+@media screen and (max-width:800px) {
+    body{
+      width: 100%;
+    }
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.btn
+{
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+  padding: 4px ;
+  width: 100px;
+  text-align: center;
+}
