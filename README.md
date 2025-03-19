@@ -22,6 +22,11 @@ This is a simple one-to-one video chat application built using WebRTC without a 
    - Click on the "Start Connection" button to establish the WebRTC connection.
 
 ## Installation & Usage
+
+### 1. Live Demo  
+Try the live demo here: **[WebRTC One-to-One Chat](https://poojansakhreliya8050.github.io/poojansakhreliya8050-webrtc-serverless/)**  
+
+### 2. Run Locally  
 1. Clone the repository:
    ```sh
    git clone https://github.com/poojansakhreliya8050/poojansakhreliya8050-webrtc-serverless.git
